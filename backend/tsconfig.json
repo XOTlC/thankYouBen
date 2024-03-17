@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        // Typings
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        // Modules
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "target": "ESNext",
+        "moduleDetection": "auto",
+        "resolveJsonModule": true,
+        // Emit
+        "outDir": "dist",
+        "alwaysStrict": false,
+        "sourceMap": false,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+        "removeComments": false,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "importHelpers": false,
+    },
+    "include": [
+        "src/**/*",
+        "environment.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
