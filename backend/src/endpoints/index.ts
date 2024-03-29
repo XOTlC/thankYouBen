@@ -1,7 +1,8 @@
 import { Application } from "express";
+import { Sequelize } from "sequelize-typescript";
 
-import test from "./test/index.js";
+import thank from "./thank/index.js";
 
-export default (app: Application) => {
-    test(app);
+export default (app: Application, db: Sequelize) => {
+    thank(app, db);
 };

@@ -21,7 +21,7 @@
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "allowSyntheticDefaultImports": true,
-        "removeComments": false,
+        "removeComments": true,
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
         "skipDefaultLibCheck": true,

@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700|Titan+One");
+@import url("https://ka-f.fontawesome.com/releases/v6.4.2/css/pro.min.css");
+@import url("https://ka-f.fontawesome.com/releases/v6.4.2/css/pro-v4-shims.min.css");
+@import url("https://ka-f.fontawesome.com/releases/v6.4.2/css/pro-v5-font-face.min.css");
+@import url("https://ka-f.fontawesome.com/releases/v6.4.2/css/pro-v4-font-face.min.css");
+
+$background-color: #0bc2cf;
+$primary-color: #9a49aa;
+$accent-color: #ffffff;
+
+body {
+    font-family: "Nunito", sans-serif;
+    background: $background-color;
+    color: $accent-color;
+}
+
+h1 {
+    font-family: "Titan One", sans-serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: "Titan One", sans-serif;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: "Titan One", sans-serif;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-family: "Titan One", sans-serif;
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-family: "Titan One", sans-serif;
+    font-size: 1rem;
+}
+
+h6 {
+    font-family: "Titan One", sans-serif;
+    font-size: .75rem;
+}
+
+a {
+    color: $accent-color;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+button {
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+input {
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    transition: all .3s ease;
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 5px 1px $accent-color;
+    }
+}
+
+textarea {
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    transition: all .3s ease;
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 5px 1px $accent-color;
+    }
+}
+
